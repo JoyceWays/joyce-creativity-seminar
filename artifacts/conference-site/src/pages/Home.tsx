@@ -179,7 +179,7 @@ export default function Home() {
         </FadeIn>
         <FadeIn delay={0.15}>
           <p className="text-white/65 leading-8 text-base">
-            This year's Paris Seminar turns its gaze from the city itself to what the city unlocks — the creative act. Organised by Patrick Mullen of Northeastern University and Professor Joseph Nugent of Boston College, <em>Joyce et la Créativité</em> brings together scholars, critics, and writers to explore how Joyce's imaginative world illuminates the nature and practice of creativity.
+            This year's Paris Seminar turns its gaze from the city itself to what the city unlocks — the creative act. Organised by Professor Patrick Mullen of Northeastern University and Professor Joseph Nugent of Boston College, <em>Joyce et la Créativité</em> brings together scholars, critics, and writers to explore how Joyce's imaginative world illuminates the nature and practice of creativity.
           </p>
         </FadeIn>
         <FadeIn delay={0.25}>
@@ -444,8 +444,10 @@ export default function Home() {
               </div>
               <div className="w-12 h-px bg-white/10" />
               <div>
-                <p className="text-white/30 text-xs tracking-widest uppercase mb-2">Organiser</p>
-                <p className="text-white/60 text-sm">
+                <p className="text-white/30 text-xs tracking-widest uppercase mb-2">Organisers</p>
+                <p className="text-white/60 text-sm leading-7">
+                  <span className="text-white/80">Professor Patrick Mullen</span><br />
+                  Northeastern University<br />
                   <span className="text-white/80">Professor Joseph Nugent</span><br />
                   Boston College
                 </p>
@@ -499,7 +501,7 @@ export default function Home() {
             <p className="text-white/25 text-xs leading-6">
               Embassy of Ireland · 12 Avenue Foch · 75116 Paris<br />
               Thursday, 11 June 2026<br />
-              Organised by Patrick Mullen, Northeastern University<br />
+              Organised by Professor Patrick Mullen, Northeastern University<br />
               &amp; Professor Joseph Nugent, Boston College
             </p>
           </div>
