@@ -1,0 +1,26 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "fzrVB1sg6EyJhWZXnRsDX"
+uri = "file://attached_assets/image_search/dublin_street_1900s.jpg"
+type = "image"
+title = "Vintage Dublin street scenes (late 19th/early 20th century)"
+
+[[outputs]]
+id = "t0IvKq0oXSvgk4VLVc_s5"
+uri = "file://attached_assets/image_search/oconnell_street_1904.jpg"
+type = "image"
+title = "O'Connell Street, Dublin — 1904"
+
+[[outputs]]
+id = "h6RalbYNnk-EGjzDQ6AI7"
+uri = "file://attached_assets/image_search/sackville_street_1900.jpg"
+type = "image"
+title = "Sackville Street, Dublin — 1900"
+
+[[outputs]]
+id = "Dt588O5ka8g2o7cKfyipk"
+uri = "file://attached_assets/image_search/grafton_street_1900.jpg"
+type = "image"
+title = "Grafton Street, Dublin — 1897–1904"
