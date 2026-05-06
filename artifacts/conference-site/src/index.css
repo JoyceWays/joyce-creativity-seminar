@@ -79,20 +79,20 @@
   --elevate-1: rgba(0,0,0, .03);
   --elevate-2: rgba(0,0,0, .08);
 
-  --background: 210 28% 10%;        /* #101f2e dark navy */
-  --foreground: 0 0% 96%;           /* near white */
-  --card: 210 28% 13%;              /* slightly lighter navy */
-  --card-foreground: 0 0% 90%;
-  --card-border: 0 0% 100% / 0.10;
-  --border: 0 0% 100% / 0.12;
-  --input: 0 0% 100% / 0.15;
-  --ring: 199 55% 42%;              /* vivid teal */
-  --primary: 199 55% 42%;           /* #3498c0 brighter teal */
+  --background: 210 20% 5%;         /* #0a0d0f deep dark */
+  --foreground: 0 0% 93%;           /* near white */
+  --card: 210 20% 7%;               /* slightly lighter dark */
+  --card-foreground: 0 0% 85%;
+  --card-border: 0 0% 100% / 0.06;
+  --border: 0 0% 100% / 0.08;
+  --input: 0 0% 100% / 0.12;
+  --ring: 199 49% 31%;              /* teal */
+  --primary: 199 49% 31%;           /* #236480 teal */
   --primary-foreground: 0 0% 100%;
-  --secondary: 210 22% 18%;
-  --secondary-foreground: 0 0% 82%;
-  --muted: 210 22% 15%;
-  --muted-foreground: 0 0% 60%;
+  --secondary: 210 18% 12%;
+  --secondary-foreground: 0 0% 70%;
+  --muted: 210 18% 10%;
+  --muted-foreground: 0 0% 45%;
   --accent: 199 49% 31%;
   --accent-foreground: 0 0% 100%;
   --destructive: 0 72% 51%;
@@ -170,20 +170,20 @@
   --elevate-1: rgba(255,255,255, .04);
   --elevate-2: rgba(255,255,255, .09);
 
-  --background: 210 28% 10%;        /* #101f2e dark navy */
-  --foreground: 0 0% 96%;           /* near white */
-  --card: 210 28% 13%;              /* slightly lighter navy */
-  --card-foreground: 0 0% 90%;
-  --card-border: 0 0% 100% / 0.10;
-  --border: 0 0% 100% / 0.12;
-  --input: 0 0% 100% / 0.15;
-  --ring: 199 55% 42%;              /* vivid teal */
-  --primary: 199 55% 42%;           /* #3498c0 brighter teal */
+  --background: 210 20% 5%;         /* #0a0d0f deep dark */
+  --foreground: 0 0% 93%;           /* near white */
+  --card: 210 20% 7%;               /* slightly lighter dark */
+  --card-foreground: 0 0% 85%;
+  --card-border: 0 0% 100% / 0.06;
+  --border: 0 0% 100% / 0.08;
+  --input: 0 0% 100% / 0.12;
+  --ring: 199 49% 31%;              /* teal */
+  --primary: 199 49% 31%;           /* #236480 teal */
   --primary-foreground: 0 0% 100%;
-  --secondary: 210 22% 18%;
-  --secondary-foreground: 0 0% 82%;
-  --muted: 210 22% 15%;
-  --muted-foreground: 0 0% 60%;
+  --secondary: 210 18% 12%;
+  --secondary-foreground: 0 0% 70%;
+  --muted: 210 18% 10%;
+  --muted-foreground: 0 0% 45%;
   --accent: 199 49% 31%;
   --accent-foreground: 0 0% 100%;
   --destructive: 0 72% 51%;
