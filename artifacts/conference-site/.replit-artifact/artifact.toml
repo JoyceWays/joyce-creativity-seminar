@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Joyce et la Créativité — Conference Site"
+version = "1.0.0"
+id = "artifacts/conference-site"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21795
+
+[services.development]
+run = "pnpm --filter @workspace/conference-site run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/conference-site", "run", "build" ]
+publicDir = "artifacts/conference-site/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21795"
+BASE_PATH = "/"
