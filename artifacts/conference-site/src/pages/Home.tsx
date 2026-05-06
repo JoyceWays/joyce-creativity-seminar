@@ -9,6 +9,7 @@ const speakers = [
   { name: "Joseph Nugent", affiliation: "Boston College" },
   { name: "Karen Zumhagen-Yekplé", affiliation: "Tulane University" },
   { name: "Enda Duffy", affiliation: "University of California, Santa Barbara" },
+  { name: "John O'Brien", affiliation: "Independent Scholar" },
 ];
 
 const schedule = [
@@ -178,7 +179,7 @@ export default function Home() {
         </FadeIn>
         <FadeIn delay={0.15}>
           <p className="text-white/65 leading-8 text-base">
-            This year's Paris Seminar turns its gaze from the city itself to what the city unlocks — the creative act. Organised by Professor Joseph Nugent of Boston College, <em>Joyce et la Créativité</em> brings together scholars, critics, and writers to explore how Joyce's imaginative world illuminates the nature and practice of creativity.
+            This year's Paris Seminar turns its gaze from the city itself to what the city unlocks — the creative act. Organised by Patrick Mullen of Northeastern University and Professor Joseph Nugent of Boston College, <em>Joyce et la Créativité</em> brings together scholars, critics, and writers to explore how Joyce's imaginative world illuminates the nature and practice of creativity.
           </p>
         </FadeIn>
         <FadeIn delay={0.25}>
@@ -217,7 +218,7 @@ export default function Home() {
                 >
                   {s.name}
                 </div>
-                <div className="text-xs text-white/35 leading-relaxed tracking-wide">
+                <div className="text-sm text-white/60 leading-relaxed tracking-wide mt-1">
                   {s.affiliation}
                 </div>
               </div>
@@ -498,7 +499,8 @@ export default function Home() {
             <p className="text-white/25 text-xs leading-6">
               Embassy of Ireland · 12 Avenue Foch · 75116 Paris<br />
               Thursday, 11 June 2026<br />
-              Organised by Professor Joseph Nugent, Boston College
+              Organised by Patrick Mullen, Northeastern University<br />
+              &amp; Professor Joseph Nugent, Boston College
             </p>
           </div>
         </div>
