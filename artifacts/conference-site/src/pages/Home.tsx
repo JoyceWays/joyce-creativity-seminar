@@ -72,7 +72,7 @@ export default function Home() {
           className="absolute inset-0 z-0"
         >
           <img
-            src="/assets/ogImage.png"
+            src="/assets/hero-dublin.jpg"
             alt=""
             className="w-full h-full object-cover opacity-45"
             style={{ filter: "saturate(0.7) brightness(0.65)" }}
