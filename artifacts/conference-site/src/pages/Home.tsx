@@ -74,8 +74,8 @@ export default function Home() {
           <img
             src="/assets/ogImage.png"
             alt=""
-            className="w-full h-full object-cover opacity-25"
-            style={{ filter: "saturate(0.6) brightness(0.5)" }}
+            className="w-full h-full object-cover opacity-45"
+            style={{ filter: "saturate(0.7) brightness(0.65)" }}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0a0d0f]/20 via-transparent to-[#0a0d0f]" />
         </motion.div>
@@ -346,7 +346,7 @@ export default function Home() {
                 <div className="p-10">
                   <p className="text-[#236480] text-xs tracking-[0.35em] uppercase mb-6">4.00 pm · Launch</p>
                   <div className="flex items-start gap-5 mb-6">
-                    <img src="/assets/logo.png" alt="JoyceWays" className="h-14 w-14 object-contain opacity-80 shrink-0" />
+                    <img src="/assets/joyceways-icon.png" alt="JoyceWays" className="h-20 w-20 object-contain rounded-2xl opacity-90 shrink-0 shadow-lg" />
                     <div>
                       <h3
                         className="text-3xl font-light text-white/90 leading-tight"
@@ -374,20 +374,27 @@ export default function Home() {
                 <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-white/20 to-white/5" />
                 <div className="p-10">
                   <p className="text-white/35 text-xs tracking-[0.35em] uppercase mb-6">4.15 pm · Launch</p>
-                  <div className="mb-6">
-                    <p className="text-white/35 text-xs tracking-[0.2em] uppercase mb-3">Patrick R. Mullen</p>
-                    <h3
-                      className="text-3xl font-light text-white/90 leading-tight"
-                      style={{ fontFamily: "var(--font-serif)" }}
-                    >
-                      Queer Possessions
-                    </h3>
-                    <p
-                      className="text-white/45 text-lg italic font-light mt-1"
-                      style={{ fontFamily: "var(--font-serif)" }}
-                    >
-                      Creative Criticism and Modern Irish Literature
-                    </p>
+                  <div className="flex items-start gap-6 mb-6">
+                    <img
+                      src="/assets/queer-possessions.png"
+                      alt="Queer Possessions book cover"
+                      className="h-36 w-auto object-contain shrink-0 shadow-xl opacity-95"
+                    />
+                    <div>
+                      <p className="text-white/35 text-xs tracking-[0.2em] uppercase mb-3">Patrick R. Mullen</p>
+                      <h3
+                        className="text-3xl font-light text-white/90 leading-tight"
+                        style={{ fontFamily: "var(--font-serif)" }}
+                      >
+                        Queer Possessions
+                      </h3>
+                      <p
+                        className="text-white/45 text-lg italic font-light mt-1"
+                        style={{ fontFamily: "var(--font-serif)" }}
+                      >
+                        Creative Criticism and Modern Irish Literature
+                      </p>
+                    </div>
                   </div>
                   <p className="text-white/55 text-sm leading-7 mb-5">
                     Professor Mullen's new monograph redefines the relationship between queer theory and Irish modernism — a landmark contribution to both fields.
