@@ -5,7 +5,7 @@ const speakers = [
   { name: "Vicki Mahaffey", affiliation: "University of Illinois, Urbana-Champaign" },
   { name: "Patrick Mullen", affiliation: "Northeastern University" },
   { name: "Maurizia Boscagli", affiliation: "University of California, Santa Barbara" },
-  { name: "Eve Watson", affiliation: "Freud Lacan Institute" },
+  { name: "Eve Watson", affiliation: "Freud Lacan institute" },
   { name: "Joseph Nugent", affiliation: "Boston College" },
   { name: "Karen Zumhagen-Yekplé", affiliation: "Tulane University" },
   { name: "Enda Duffy", affiliation: "University of California, Santa Barbara" },
